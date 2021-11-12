@@ -4,9 +4,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>collatz</title>
-    <script src="script.js"></script>
 </head>
 <body>
-    
+    <h1 class="headtitle">All Numbers Lead to One</h1>
+    <h2>The Collatz conjecture is as follows.
+
+        Take any natural number, n.
+        If n is even, divide it by 2.
+        Otherwise, n is odd. Multiply it by 3 and add 1
+        Repeat indefinitely.
+        The conjecture is that you will always reach 1, 
+        no matter what number you start with.
+    </h2>
+    <h4>Try it yourself</h4>
+        <input type="number" id="num-input"/>
+        <button class="btn-run">run</button>
+    <div>
+        <span class="iterations">
+            
+        </span>
+    </div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
